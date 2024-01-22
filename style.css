@@ -1,0 +1,28 @@
+
+.throwDice {
+    padding: 20px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.selectBox {
+    padding: 10px 10px;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.throwButton {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px groove white; 
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}

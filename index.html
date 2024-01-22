@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+    <head>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href="style.css">
+        <script src = "./script.js"></script>
+        <title> Dice Game! </title>
+    </head>
+    <body>
+        <div class = "container">
+            <header>
+                <h1 class = "header">Dice Game!</h1>
+            </header>
+            <select onchange = "handleChange(event)" id = "selectBox1" class = "selectBox" name ="selectBox">
+                <option value = 0> --- Select The Number of Dice ---</option>
+                <option value = 1> One   </option>
+                <option value = 2> Two   </option>
+                <option value = 3> Three   </option>
+                <option value = 4> Four   </option>
+                <option value = 5> Five   </option>
+                <option value = 6> Six   </option>
+            </select>
+            <div class = "throwDice">
+                <button class = "throwButton" onclick = "handleClick()" id = "throwButton1">Throw Dice</button>
+            </div>
+            <div class = "resultBox" id = "resultBox1">
+
+            </div>
+        </div>
+
+        <footer>
+    
+        </footer>
+    </body>
+</html>
